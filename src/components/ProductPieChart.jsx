@@ -15,7 +15,7 @@ const ProductPieChart = () => {
     const COLORS = ['#FFBB28', '#FF8042', '#0088FE', '#00C49F', '#FF6666', '#8884d8'];
 
     return (
-        <div style={{ width: '100%', height: 300, background: 'white', padding: '20px', borderRadius: '12px', boxShadow: 'var(--shadow-sm)' }}>
+        <div style={{ width: '100%', height: 350, background: 'white', padding: '20px', borderRadius: '12px', boxShadow: 'var(--shadow-sm)' }}>
             <h3 style={{ marginBottom: '20px', fontSize: '1.1rem', color: '#333', textAlign: 'center' }}>Product By Category</h3>
             <ResponsiveContainer width="100%" height="100%">
                 <PieChart>

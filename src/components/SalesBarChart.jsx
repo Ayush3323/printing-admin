@@ -14,7 +14,7 @@ const SalesBarChart = () => {
     // Let's mock similar data.
 
     const width = '100%';
-    const height = 300;
+    const height = 350;
 
     return (
         <div style={{ width, height, background: 'white', padding: '20px', borderRadius: '12px', boxShadow: 'var(--shadow-sm)' }}>

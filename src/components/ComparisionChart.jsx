@@ -8,7 +8,7 @@ const ComparisionChart = () => {
     ];
 
     return (
-        <div style={{ width: '100%', height: 300, background: 'white', padding: '20px', borderRadius: '12px', boxShadow: 'var(--shadow-sm)' }}>
+        <div style={{ width: '100%', height: 350, background: 'white', padding: '20px', borderRadius: '12px', boxShadow: 'var(--shadow-sm)' }}>
             <h3 style={{ marginBottom: '20px', fontSize: '1.1rem', color: '#333' }}>New vs. Repeated Orders</h3>
             <div style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '5px' }}>1,234</div>
             <div style={{ color: '#10b981', fontSize: '0.9rem', marginBottom: '20px' }}>Last 30 days +12%</div>
